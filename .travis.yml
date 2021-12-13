@@ -1,7 +1,11 @@
 language: go
 
-dist:
-  - xenial
-  - bionic
+jobs:
+  include:
+    - os: linux
+      dist: bionic
+    - os: linux
+      dist: xenial
+    - os: osx
 
 script: go version
