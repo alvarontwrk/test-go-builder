@@ -1,3 +1,7 @@
 language: go
 
+dist:
+  - xenial
+  - bionic
+
 script: go version
