@@ -4,8 +4,15 @@ jobs:
   include:
     - os: linux
       dist: bionic
+      arch:
+        - amd64
+        - arm64
     - os: linux
       dist: xenial
+        - amd64
+        - arm64
     - os: osx
+        - amd64
+        - arm64
 
 script: go version
