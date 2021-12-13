@@ -9,9 +9,11 @@ jobs:
         - arm64
     - os: linux
       dist: xenial
+      arch:
         - amd64
         - arm64
     - os: osx
+      arch:
         - amd64
         - arm64
 
